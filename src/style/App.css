@@ -1,0 +1,10 @@
+.mainWrapper {
+    display: flex;
+}
+
+button {
+    border: none;
+    padding: 5px 8px;
+    background: gold;
+    border-radius: 10px;
+}

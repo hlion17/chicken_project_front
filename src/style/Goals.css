@@ -1,0 +1,39 @@
+.goalCard {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    width: 150px;
+    height: 200px;
+    padding: 10px;
+    margin: 15px;
+    position: relative;
+    background: #F8F9FA;
+}
+
+.goalCard:hover {
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+}
+
+.goalCard > * {
+    margin-bottom: 15px;
+}
+
+.goalTitle {
+    font-size: 1.5rem;
+}
+
+.goalStatus {
+    background: gold;
+    padding: 3px 5px;
+    border-radius: 10px;
+    font-size: 0.85rem;
+}
+
+.cardMenu {
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+}
+
+.cardMenu > button {
+    margin-right: 10px;
+}
