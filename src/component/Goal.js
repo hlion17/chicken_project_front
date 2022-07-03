@@ -6,6 +6,7 @@ import {useHistory} from "react-router-dom"
 function Goal({id, title, description, status, vote}) {
 
     const history = useHistory();
+    const editUrl = `/goals/edit/${id}`;
 
     const deleteGoal = function () {
         // axios
@@ -47,7 +48,9 @@ function Goal({id, title, description, status, vote}) {
                     onClick={deleteGoal}
                 >삭제
                 </button>
-                <button>수정</button>
+                <Link to={editUrl}>
+                    <button>수정</button>
+                </Link>
             </div>
         </div>
     )
